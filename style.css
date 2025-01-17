@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    align-items: center;
+    margin-left: 105.7rem;
+}
+
+.header a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 0 15px;
+    font-size: 13px;
+    color: black;
+}
+
+.header a:hover{
+    text-decoration: underline;
+}
+
+.grip-dots{
+    padding: 8px 8px;
+    border-radius: 50%;
+    transition: .4s ease;
+    cursor: pointer;
+}
+
+.grip-dots:hover{
+    background-color: rgb(243, 243, 243);
+}
+
+.header .profile-pic{
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.main{
+    display: flex;
+    flex: 1;
+    margin-top: 10%;
+    flex-direction: column;
+}
+
+.main img{
+    object-fit: contain;
+    height: 95px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    height: 48px;
+    padding: 10px 20px;
+    border-radius: 999px;
+    width: 75vw;
+    margin: 0 auto;
+    margin-top: 30px;
+    max-width: 560px;
+    box-shadow: 0px 2px 15px #ccc;
+}
+
+#lupa i:first-of-type{
+    font-size: 14px;
+    color: #9e9e9e;
+}
+
+form input{
+    width: 53ch;
+    flex: 1;
+    display: flex;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.main i{
+    color: grey;
+}
+
+.btns{
+    position: relative;
+    right: 415px;
+    gap: 4px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.btns button{
+    width: 150px;
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #f8f8f8;
+    border-radius: 5%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #3f3f3f;
+    transition: .4s ease;
+}
+
+.btns button:hover{
+    border: 1px solid #ccc;
+}
+
+.materials{
+    display: flex;
+    gap: 18px;
+    font-size: 18px;
+    position: relative;
+    left: 8px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #f2f2f2;
+    height: 100px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.local{
+    height: 50%;
+    border-bottom: 1px solid lightgray;
+}
+
+.local p{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+.informacoes{
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.informacoes ul li a{
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+}
+
+.informacoes ul li a:hover{
+    text-decoration: underline;
+}
+
+.informacoes--first{
+    display: flex;
+}
+
+.informacoes--first li{
+    margin-right: 15px;
+}
+
+.informacoes--second{
+    display: flex;
+}
+
+.informacoes--second li{
+    margin-left: 15px;
+}
